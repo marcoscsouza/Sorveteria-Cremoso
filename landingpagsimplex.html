@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>+cremoso Sorveteria</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- AOS Animation CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Swiper Carousel CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body class="antialiased text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow-md" data-aos="fade-down">
+    <div class="container mx-auto flex items-center justify-between p-4">
+      <a href="#" class="text-2xl font-bold text-pink-500 hover:animate-pulse">+cremoso</a>
+      <nav class="space-x-6">
+        <a href="#sabores" class="hover:text-pink-500">Sabores</a>
+        <a href="#depoimentos" class="hover:text-pink-500">Depoimentos</a>
+        <a href="#sobre" class="hover:text-pink-500">Sobre</a>
+        <a href="#contato" class="hover:text-pink-500">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="bg-gradient-to-r from-pink-200 to-yellow-200 py-20" data-aos="fade-in">
+    <div class="container mx-auto flex flex-col items-center text-center">
+      <h1 class="text-4xl md:text-6xl font-extrabold mb-4" data-aos="zoom-in" data-aos-delay="200">Descubra o Sabor +cremoso</h1>
+      <p class="text-lg md:text-2xl mb-8" data-aos="fade-up" data-aos-delay="400">13 sabores exclusivos de sacolé para refrescar seu dia</p>
+      <a href="#sabores" class="bg-pink-500 text-white px-6 py-3 rounded-full text-lg hover:bg-pink-600 transition animate-bounce" data-aos="fade-up" data-aos-delay="600">Conheça Sabores</a>
+    </div>
+  </section>
+
+  <!-- Sabores (Carousel) -->
+  <section id="sabores" class="py-16 bg-white" data-aos="fade-up">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-right">Nossos Sabores</h2>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide flex justify-center">
+            <div class="max-w-xs bg-white shadow rounded-lg overflow-hidden" data-aos="flip-left" data-aos-delay="100">
+              <img src="src/img/morango.jpg" alt="Sabor Morango" class="w-full h-48 object-cover">
+              <div class="p-4">
+                <h3 class="text-xl font-semibold mb-2">Morango</h3>
+                <p>Sacolê cremoso de morango natural.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <div class="max-w-xs bg-white shadow rounded-lg overflow-hidden" data-aos="flip-left" data-aos-delay="200">
+              <img src="src/img/chocolatebranco.jpg" alt="Sabor Chocolate" class="w-full h-48 object-cover">
+              <div class="p-4">
+                <h3 class="text-xl font-semibold mb-2">Chocolate</h3>
+                <p>Sacolê intenso de chocolate branco.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <div class="max-w-xs bg-white shadow rounded-lg overflow-hidden" data-aos="flip-left" data-aos-delay="300">
+              <img src="src/img/coco.jpg" alt="Sabor Coco" class="w-full h-48 object-cover">
+              <div class="p-4">
+                <h3 class="text-xl font-semibold mb-2">Coco</h3>
+                <p>Sacolê cremoso de coco fresco.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <div class="max-w-xs bg-white shadow rounded-lg overflow-hidden" data-aos="flip-left" data-aos-delay="400">
+              <img src="src/img/blueice.jpg" alt="Sabor Limão" class="w-full h-48 object-cover">
+              <div class="p-4">
+                <h3 class="text-xl font-semibold mb-2">Blue Ice</h3>
+                <p>Sacolê refrescante de Blue Ice.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide flex justify-center">
+            <div class="max-w-xs bg-white shadow rounded-lg overflow-hidden" data-aos="flip-left" data-aos-delay="400">
+              <img src="src/img/acai.jpg" alt="Sabor Limão" class="w-full h-48 object-cover">
+              <div class="p-4">
+                <h3 class="text-xl font-semibold mb-2">Açai com Banana</h3>
+                <p>Sacolê refrescante de Açai com Banana.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide flex justify-center">
+            <div class="max-w-xs bg-white shadow rounded-lg overflow-hidden" data-aos="flip-left" data-aos-delay="400">
+              <img src="src/img/cupuacu.jpg" alt="Sabor Limão" class="w-full h-48 object-cover">
+              <div class="p-4">
+                <h3 class="text-xl font-semibold mb-2">Cupuaçu</h3>
+                <p>Sacolê refrescante de Cupuaçu.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Adicione mais slides para os demais sabores -->
+        </div>
+        <!-- Navigation Buttons -->
+        <div class="swiper-button-next text-pink-500"></div>
+        <div class="swiper-button-prev text-pink-500"></div>
+        <!-- Pagination Dots -->
+        <div class="swiper-pagination mt-6"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="bg-gray-50 py-16" data-aos="fade-up">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8" data-aos="fade-right">O que dizem nossos clientes</h2>
+      <div class="space-y-8 md:space-y-0 md:grid md:grid-cols-3 md:gap-8">
+        <div class="bg-white p-6 rounded-lg shadow" data-aos="zoom-in" data-aos-delay="100">
+          <p class="mb-4">“O +cremoso virou minha sobremesa favorita! Sabor autêntico e textura perfeita.”</p>
+          <h4 class="font-semibold">Ana Silva</h4>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow" data-aos="zoom-in" data-aos-delay="200">
+          <p class="mb-4">“Melhor sacolé que já provei. Indico para todos!”</p>
+          <h4 class="font-semibold">Carlos Pereira</h4>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow" data-aos="zoom-in" data-aos-delay="300">
+          <p class="mb-4">“Entrega rápida e qualidade impecável. Amo +cremoso!”</p>
+          <h4 class="font-semibold">Mariana Rocha</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre Nós -->
+  <section id="sobre" class="py-16" data-aos="fade-left">
+    <div class="container mx-auto flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 mb-8 md:mb-0" data-aos="fade-right">
+        <img src="https://via.placeholder.com/600x400" alt="Nossa História" class="rounded-lg shadow">
+      </div>
+      <div class="md:w-1/2 md:pl-12" data-aos="fade-left" data-aos-delay="200">
+        <h2 class="text-3xl font-bold mb-4">Nossa História</h2>
+        <p class="mb-4">Fundada em 2022, a +cremoso nasceu do desejo de oferecer sacolés artesanais com ingredientes frescos e qualidade premium. Nossa missão é levar alegria e refrescância em cada mordida.</p>
+        <p>A cada temporada, criamos novos sabores exclusivos para surpreender seu paladar.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato e Localização -->
+  <section id="contato" class="bg-gray-50 py-16" data-aos="fade-up">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Fale Conosco</h2>
+      <div class="flex flex-col lg:flex-row lg:space-x-12">
+        <div class="lg:w-1/2 mb-8 lg:mb-0" data-aos="zoom-in">
+          <iframe class="w-full h-64 rounded-lg shadow" src="https://www.google.com/maps/embed?pb=!1m18..." allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <form class="lg:w-1/2 bg-white p-6 rounded-lg shadow space-y-4" data-aos="zoom-in" data-aos-delay="200">
+          <input type="text" placeholder="Nome" class="w-full border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-pink-300">
+          <input type="email" placeholder="E-mail" class="w-full border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-pink-300">
+          <textarea rows="4" placeholder="Mensagem" class="w-full border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-pink-300"></textarea>
+          <button type="submit" class="w-full bg-pink-500 text-white py-3 rounded hover:bg-pink-600 transition animate-pulse">Enviar Mensagem</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t py-6" data-aos="fade-up">
+    <div class="container mx-auto text-center text-gray-600">
+      <p>&copy; 2025 +cremoso. Todos os direitos reservados.</p>
+      <div class="space-x-4 mt-2">
+        <a href="#" class="hover:text-pink-500">Política de Privacidade</a>
+        <a href="#" class="hover:text-pink-500">Termos de Uso</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AOS Animation JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  </script>
+
+  
+  <!-- Swiper JS -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.mySwiper', {
+      loop: true,
+      spaceBetween: 20,
+      slidesPerView: 1,
+      
+      // 1. Autoplay habilitado
+      autoplay: {
+        delay: 3000,               // 3 segundos entre cada slide :contentReference[oaicite:0]{index=0}
+        disableOnInteraction: false // Continua autoplay após swipe do usuário :contentReference[oaicite:1]{index=1}
+      },
+  
+      // 2. Paginação e Navegação
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+  
+      // 3. Responsividade
+      breakpoints: {
+        640:  { slidesPerView: 2 },
+        1024: { slidesPerView: 3 },
+        1280: { slidesPerView: 4 }
+      }
+    });
+  </script>
+</body>
+</html>

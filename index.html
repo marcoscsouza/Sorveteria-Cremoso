@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Mais Cremoso</title>
+</head>
+<body>
+    <!-- <header>
+        <figure class="logo">
+            <img src="src/img/logo ai.png" alt="">
+        </figure>
+        <nav class="main-nav ">
+            <ul>
+                <li><a href="">Cremosos</a></li>
+                <li><a href=""></a>Menu</li>
+                <li><a href="#contato"></a>Sobre</li>
+            </ul>
+        </nav>   
+        <a href="#" target="_blank" class="text-green-500 hover:text-pink-500 transition transform hover:scale-110">
+            <i class="fab fa-whatsapp text-xl"></i>
+          </a>
+    </header> -->
+
+    <header >
+        <!-- Logo -->
+        <figure class="logo">
+          <img src="src/img/mascote.png" alt="Logo" class="h-14 md:h-20">
+        </figure>
+      
+        <!-- Navegação -->
+        <nav class="main-nav hidden md:block">
+          <ul class="flex space-x-6 text-lg font-medium text-gray-700">
+            <li><a href="#parceiros" class="hover:text-green-500 transition">Parceiros</a></li>
+            <li><a href="#precos" class="hover:text-green-500 transition">Preços</a></li>
+            <li><a href="#contato" class="hover:text-green-500 transition">Sobre</a></li>
+          </ul>
+        </nav>
+      
+        <!-- Botão WhatsApp -->
+        <a href="https://wa.me/5521991625865" target="_blank"
+           class="absolute right-6 top-1/2 transform -translate-y-1/2 bg-green-500 text-white px-4 py-2 rounded-full text-lg flex items-center space-x-2 hover:bg-green-600 transition shadow-md">
+          <i class="fab fa-whatsapp text-2xl"></i>
+          <span class="hidden sm:inline">WhatsApp</span>
+        </a>
+      </header>
+      
+      
+
+    
+      
+
+    <main>
+        <section class="carousel next">
+            
+            <div class="list">
+
+                <!-- Sabor açai-->
+                <article class="item other_1">
+                    <div class="main-content" 
+                    style="background-color: #764269;">
+                        <div class="content">
+                            <img src="src/img/logo ai.png" alt="Entrega Rápida" class="w-64 mx-auto mb-4">
+                            <h2>Açai com Banana</h2>
+                            <p class="price">$ 50</p>
+                            <p class="description">
+                                A combinação perfeita entre o sabor marcante do açaí e a doçura natural da banana. 
+                                Refrescante, cremoso e com aquele toque de iogurte que deixa tudo mais gostoso. 
+                                Um clássico irresistível para quem ama energia e sabor em cada mordida.
+                            </p>
+                            <div class="mt-8">
+                                <a href="#contato" class="bg-green-600 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="src/img/upscale/acai_sem_fundo-removebg-preview (1).png" alt="">
+                        <figcaption>Açai com Banana</figcaption>
+                    </figure>
+                </article>
+
+                <!-- Sabor blue-->
+                <article class="item active">
+                    <div class="main-content" 
+                    style="background-color: #1c60db;">
+                        <div class="content">
+                            <img src="src/img/logo ai.png" alt="Entrega Rápida" class="w-64 mx-auto mb-4">
+                            <h2>Blue Ice</h2>
+                            <h3>Pacote com 50 unidades</h3>
+                            <p class="price">$ 50</p>
+                            <p class="description">
+                                Um sabor misterioso e refrescante que conquista logo na primeira prova. 
+                                O Blue Ice tem aquele gostinho doce e levemente cítrico, com uma cremosidade que lembra iogurte geladinho. 
+                                Ideal para quem curte novidades e quer se refrescar com algo diferente e delicioso.
+                            </p>
+                            <div class="mt-8">
+                                <a href="#contato" class="bg-green-600 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="src/img/upscale/blue_sem_fundo-removebg-preview.png" alt="">
+                        <figcaption>Blue Ice</figcaption>
+                    </figure>
+                </article>
+
+                <!-- Sabor chocolate branco-->
+                <article class="item other_2">
+                    <div class="main-content" 
+                    style="background-color: #f1f5c3;">
+                        <div class="content">
+                            <img src="src/img/logo ai.png" alt="Entrega Rápida" class="w-64 mx-auto mb-4">
+                            <h2>Chocolate Branco</h2>
+                            <h3>Pacote com 50 unidades</h3>
+                            <p class="price">$ 50</p>
+                            <p class="description">
+                                Suave, cremoso e simplesmente irresistível. 
+                                O sabor Chocolate Branco traz toda a doçura e delicadeza desse clássico, 
+                                combinado com a textura cremosa que lembra um iogurte gelado. 
+                                Perfeito para quem ama um sabor mais doce e envolvente.
+                            </p>
+                            <div class="mt-8">
+                                <a href="#contato" class="bg-green-600 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="src/img/upscale/Chocolate_Branco-removebg-preview.png" alt="">
+                        <figcaption>Chocolate Branco</figcaption>
+                    </figure>
+                </article>
+
+                <!-- Sabor coco-->
+                <article class="item">
+                    <div class="main-content" 
+                    style="background-color: #dbe0da;">
+                        <div class="content">
+                            <img src="src/img/logo ai.png" alt="Entrega Rápida" class="w-64 mx-auto mb-4">
+                            <h2>Coco</h2>
+                            <h3>Pacote com 50 unidades</h3>
+                            <p class="price">$ 50</p>
+                            <p class="description">
+                                Um sabor tropical que nunca sai de moda. 
+                                O sorvete de Coco é leve, cremoso e cheio de pedacinhos que lembram o frescor da fruta natural. 
+                                Com aquele toque suave de iogurte, é a escolha certa pra quem ama um docinho refrescante com gostinho de verão.
+                            </p>
+                            <div class="mt-8">
+                                <a href="#contato" class="bg-green-600 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="src/img/upscale/Coco_sem_fundo-removebg-preview.png" alt="">
+                        <figcaption>Coco</figcaption>
+                    </figure>
+                </article>
+
+                <!-- Sabor cupuaçu-->
+                <article class="item">
+                    <div class="main-content" 
+                    style="background-color: #dcdfd8;">
+                        <div class="content">
+                            <img src="src/img/logo ai.png" alt="Entrega Rápida" class="w-64 mx-auto mb-4">
+                            <h2>Cupuaçu</h2>
+                            <h3>Pacote com 50 unidades</h3>
+                            <p class="price">$ 50</p>
+                            <p class="description">
+                                Direto da Amazônia para o seu paladar! O sorvete de Cupuaçu tem um sabor marcante, 
+                                levemente ácido e ao mesmo tempo doce, equilibrado com a cremosidade do iogurte. 
+                                Uma explosão de sabor exótico e refrescante para quem gosta de experimentar o melhor das frutas brasileiras.
+                            </p>
+                            <div class="mt-8">
+                                <a href="#contato" class="bg-green-600 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="src/img/upscale/Cupuaçu-removebg-preview.png" alt="">
+                        <figcaption>Cupuaçu</figcaption>
+                    </figure>
+                </article>
+
+                <!-- Sabor goiaba-->
+                <article class="item">
+                    <div class="main-content" 
+                    style="background-color: #f89283;">
+                        <div class="content">
+                            <img src="src/img/logo ai.png" alt="Entrega Rápida" class="w-64 mx-auto mb-4">
+                            <h2>Goiaba</h2>
+                            <h3>Pacote com 50 unidades</h3>
+                            <p class="price">$ 50</p>
+                            <p class="description">
+                                Sabor de fruta do pé com aquele toque caseiro que dá água na boca. 
+                                O sorvete de Goiaba é doce na medida certa, com o gostinho natural da fruta e 
+                                uma cremosidade que lembra um iogurte fresquinho. 
+                                Uma delícia tropical que combina com qualquer momento do dia.
+                            </p>
+                            <div class="mt-8">
+                                <a href="#contato" class="bg-green-600 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="src/img/upscale/Goiaba-removebg-preview.png" alt="">
+                        <figcaption>Goiaba</figcaption>
+                    </figure>
+                </article>
+
+                <!-- Sabor graviola-->
+                <article class="item">
+                    <div class="main-content" 
+                    style="background-color: #b6dab6;">
+                        <div class="content">
+                            <img src="src/img/logo ai.png" alt="Entrega Rápida" class="w-64 mx-auto mb-4">
+                            <h2>Graviola</h2>
+                            <h3>Pacote com 50 unidades</h3>
+                            <p class="price">$ 50</p>
+                            <p class="description">
+                                Refrescante e levemente azedinho, o sorvete de Graviola é uma explosão de sabor tropical. 
+                                A fruta, com seu gosto único e marcante, ganha ainda mais destaque com a cremosidade suave do iogurte. 
+                                Ideal para quem busca um sabor diferente e cheio de personalidade.
+                            </p>
+                            <div class="mt-8">
+                                <a href="#contato" class="bg-green-600 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="src/img/upscale/Graviola-removebg-preview.png" alt="">
+                        <figcaption>Graviola</figcaption>
+                    </figure>
+                </article>
+
+                <!-- Sabor leite condensado-->
+                <article class="item">
+                    <div class="main-content" 
+                    style="background-color: #faffa5;">
+                        <div class="content">
+                            <img src="src/img/logo ai.png" alt="Entrega Rápida" class="w-64 mx-auto mb-4">
+                            <h2>Leite Condensado</h2>
+                            <h3>Pacote com 50 unidades</h3>
+                            <p class="price">$ 50</p>
+                            <p class="description">
+                                Puro carinho em forma de sorvete! O sabor Leite Condensado é doce, cremoso e irresistível, 
+                                com aquele gostinho familiar que lembra sobremesa de infância. Com a textura macia de iogurte geladinho, 
+                                é perfeito para adoçar o seu dia.
+                            </p>
+                            <div class="mt-8">
+                                <a href="#contato" class="bg-green-600 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="src/img/upscale/Leite_Condensado-removebg-preview.png" alt="">
+                        <figcaption>Leite Condensado</figcaption>
+                    </figure>
+                </article>
+
+                <!-- Sabor manga-->
+                <article class="item">
+                    <div class="main-content" 
+                    style="background-color: #fddf65;">
+                        <div class="content">
+                            <img src="src/img/logo ai.png" alt="Entrega Rápida" class="w-64 mx-auto mb-4">
+                            <h2>Manga</h2>
+                            <h3>Pacote com 50 unidades</h3>
+                            <p class="price">$ 50</p>
+                            <p class="description">
+                                Doce, tropical e incrivelmente refrescante. 
+                                O sorvete de Manga traz o sabor vibrante da fruta madura, 
+                                combinado com a leveza e cremosidade do iogurte. 
+                                Uma delícia natural que é a cara dos dias quentes e ensolarados.
+                            </p>
+                            <div class="mt-8">
+                                <a href="#contato" class="bg-green-600 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="src/img/upscale/Manga-removebg-preview.png" alt="">
+                        <figcaption>Manga</figcaption>
+                    </figure>
+                </article>
+
+                <!-- Sabor maracuja-->
+                <article class="item">
+                    <div class="main-content" 
+                    style="background-color: #eee541;">
+                        <div class="content">
+                            <img src="src/img/logo ai.png" alt="Entrega Rápida" class="w-64 mx-auto mb-4">
+                            <h2>Maracujá</h2>
+                            <h3>Pacote com 50 unidades</h3>
+                            <p class="price">$ 50</p>
+                            <p class="description">
+                                Cítrico na medida certa, o sorvete de Maracujá é aquele equilíbrio perfeito entre o azedinho da fruta e a suavidade do iogurte. 
+                                Refrescante, leve e cheio de sabor, é ideal para quem curte uma explosão tropical com um toque de cremosidade.
+                            </p>
+                            <div class="mt-8">
+                                <a href="#contato" class="bg-green-600 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="src/img/upscale/Maracuja-removebg-preview.png" alt="">
+                        <figcaption>Maracujá</figcaption>
+                    </figure>
+                </article>
+
+                <!-- Sabor milho verde-->
+                <article class="item">
+                    <div class="main-content" 
+                    style="background-color: #3b9c69;">
+                        <div class="content">
+                            <img src="src/img/logo ai.png" alt="Entrega Rápida" class="w-64 mx-auto mb-4">
+                            <h2>Milho Verde</h2>
+                            <h3>Pacote com 50 unidades</h3>
+                            <p class="price">$ 50</p>
+                            <p class="description">
+                                Um sabor inusitado e delicioso! O sorvete de Milho Verde combina a suavidade e doçura natural do milho com a cremosidade do iogurte, 
+                                criando uma experiência única e reconfortante. Perfeito para quem busca algo diferente, com um toque caseiro e cheio de sabor.
+                            </p>
+                            <div class="mt-8">
+                                <a href="#contato" class="bg-green-600 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="src/img/upscale//Milho_Verde-removebg-preview.png" alt="">
+                        <figcaption>Milho Verde</figcaption>
+                    </figure>
+                </article>
+
+                <!-- Sabor morango-->
+                <article class="item">
+                    <div class="main-content" 
+                    style="background-color: #f2958d;">
+                        <div class="content">
+                            <img src="src/img/logo ai.png" alt="Entrega Rápida" class="w-64 mx-auto mb-4">
+                            <h2>Morango</h2>
+                            <h3>Pacote com 50 unidades</h3>
+                            <p class="price">$ 50</p>
+                            <p class="description">
+                                Doce, fresco e cheio de sabor, o sorvete de Morango é a escolha clássica para quem ama a simplicidade das frutas. 
+                                Com o sabor autêntico e a cremosidade do iogurte, é uma combinação que agrada a todos, em qualquer momento do dia.
+                            </p>
+                            <div class="mt-8">
+                                <a href="#contato" class="bg-green-600 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="src/img/upscale/Morango-removebg-preview.png" alt="">
+                        <figcaption>Morango</figcaption>
+                    </figure>
+                </article>
+
+                <!-- Sabor uva-->
+                <article class="item">
+                    <div class="main-content" 
+                    style="background-color: #7f188e;">
+                        <div class="content">
+                            <img src="src/img/logo ai.png" alt="Entrega Rápida" class="w-64 mx-auto mb-4">
+                            <h2>Uva</h2>
+                            <h3>Pacote com 50 unidades</h3>
+                            <p class="price">$ 50</p>
+                            <p class="description">
+                                Refrescante e doce, o sorvete de Uva traz todo o sabor vibrante da fruta, combinado com a cremosidade do iogurte. 
+                                Uma experiência leve e deliciosa, perfeita para quem adora um toque frutado e natural em cada mordida.
+                            </p>
+                            <div class="mt-8">
+                                <a href="#contato" class="bg-green-600 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="src/img/upscale/Uva-removebg-preview.png" alt="">
+                        <figcaption>Uva</figcaption>
+                    </figure>
+                </article>
+
+            </div>
+            <div class="arrows">
+                <button id="prev" style="visibility: hidden;"><</button>
+                <button id="next" style="visibility: hidden;">></button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Parceiros -->
+    <section id="parceiros" class="py-16 bg-gray-50">
+        <div class="container mx-auto text-center">
+          <h2 class="text-4xl font-bold text-green-600 mb-8">Por Que Trabalhar com a +cremoso?</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+            <!-- Benefício 1 -->
+            <div class="p-6 bg-white rounded-lg shadow-lg">
+              <img src="src/img/telefone.png" alt="Entrega Rápida" class="w-24 mx-auto mb-4">
+              <h3 class="text-xl font-semibold mb-2">Entrega Rápida em Belford Roxo</h3>
+              <p>Oferecemos entregas rápidas e eficientes por toda a região, garantindo que seus pedidos cheguem fresquinhos e no prazo combinado.</p>
+            </div>
+            <!-- Benefício 2 -->
+            <div class="p-6 bg-white rounded-lg shadow-lg">
+              <img src="src/img/bravo.png" alt="Preços Competitivos" class="w-24 mx-auto mb-4">
+              <h3 class="text-xl font-semibold mb-2">Preços Competitivos no Atacado</h3>
+              <p>Com valores acessíveis e opções no atacado, proporcionamos margens vantajosas para revendedores e lojistas.</p>
+            </div>
+            <!-- Benefício 3 -->
+            <div class="p-6 bg-white rounded-lg shadow-lg">
+              <img src="src/img//divulgado.png" alt="Material de Divulgação" class="w-24 mx-auto mb-4">
+              <h3 class="text-xl font-semibold mb-2">Material de Divulgação Exclusivo</h3>
+              <p>Oferecemos cartazes personalizados e material de apoio para ajudar a divulgar sua parceria com a +cremoso e atrair mais clientes.</p>
+            </div>
+          </div>
+          <div class="mt-8">
+            <a href="#contato" class="bg-green-500 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">Seja Nosso Parceiro</a>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Tabela de preços -->
+        <!-- <section id="precos" class="py-16 bg-gray-50">
+            <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-green-600 mb-8">Confira Nossos Preços e Condições</h2>
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold mb-6">Tabela de Preços</h3>
+                <table class="min-w-full table-auto text-center border-collapse">
+                <thead>
+                    <tr class="bg-green-100">
+                    <th class="py-4 px-6 text-lg font-semibold text-green-600">Quantidade</th>
+                    <th class="py-4 px-6 text-lg font-semibold text-green-600">Preço por Pacote</th>
+                    <th class="py-4 px-6 text-lg font-semibold text-green-600">Forma de Pagamento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-t">
+                    <td class="py-4 px-6">1 a 9 Pacotes</td>
+                    <td class="py-4 px-6">R$ 50,00</td>
+                    <td class="py-4 px-6">PIX ou Dinheiro</td>
+                    </tr>
+                    <tr class="border-t">
+                    <td class="py-4 px-6">10 a 19 Pacotes</td>
+                    <td class="py-4 px-6">R$ 48,00</td>
+                    <td class="py-4 px-6">Somente Dinheiro</td>
+                    </tr>
+                    <tr class="border-t">
+                    <td class="py-4 px-6">20 ou Mais Pacotes</td>
+                    <td class="py-4 px-6">R$ 47,00</td>
+                    <td class="py-4 px-6">Somente Dinheiro</td>
+                    </tr>
+                    <tr class="border-t bg-yellow-50">
+                    <td class="py-4 px-6 text-left" colspan="3">
+                        <strong class="text-green-600">📦 Cada pacote contém 50 unidades</strong><br>
+                        Você pode escolher entre <strong>sabores sortidos</strong> ou <strong>sabor único</strong> no seu pedido.
+                    </td>
+                    </tr>
+                    <tr class="border-t">
+                    <td class="py-4 px-6 text-left" colspan="3">
+                        <strong>Importante:</strong> Para compras acima de 10 pacotes, a retirada deve ser feita na loja. Caso seja solicitada a entrega, o preço será o valor normal de R$ 50,00 por pacote.
+                    </td>
+                    </tr>
+                </tbody>
+                </table>
+                <div class="mt-8">
+                <a href="#contato" class="bg-green-500 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">Faça seu Pedido</a>
+                </div>
+            </div>
+            </div>
+        </section> -->
+
+        
+        <!-- Tabela de preços -->
+<section id="precos" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold text-green-600 mb-8">Confira Nossos Preços e Condições</h2>
+      <div class="bg-white p-6 sm:p-8 rounded-lg shadow-lg">
+  
+        <h3 class="text-2xl font-semibold mb-6">Tabela de Preços</h3>
+  
+        <!-- Tabela para desktop -->
+        <div class="hidden md:block">
+          <table class="w-full table-auto text-center border-collapse">
+            <thead>
+              <tr class="bg-green-100">
+                <th class="py-4 px-6 text-lg font-semibold text-green-600">Quantidade</th>
+                <th class="py-4 px-6 text-lg font-semibold text-green-600">Preço por Pacote</th>
+                <th class="py-4 px-6 text-lg font-semibold text-green-600">Forma de Pagamento</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-t">
+                <td class="py-4 px-6">1 a 9 Pacotes</td>
+                <td class="py-4 px-6">R$ 50,00</td>
+                <td class="py-4 px-6">PIX ou Dinheiro</td>
+              </tr>
+              <tr class="border-t">
+                <td class="py-4 px-6">10 a 19 Pacotes</td>
+                <td class="py-4 px-6">R$ 48,00</td>
+                <td class="py-4 px-6">Somente Dinheiro</td>
+              </tr>
+              <tr class="border-t">
+                <td class="py-4 px-6">20 ou Mais Pacotes</td>
+                <td class="py-4 px-6">R$ 47,00</td>
+                <td class="py-4 px-6">Somente Dinheiro</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+  
+        <!-- Versão colapsada para celular -->
+        <div class="md:hidden space-y-6 text-left">
+          <div class="border p-4 rounded-lg bg-green-50">
+            <p><strong class="text-green-600">Quantidade:</strong> 1 a 9 Pacotes</p>
+            <p><strong class="text-green-600">Preço:</strong> R$ 50,00</p>
+            <p><strong class="text-green-600">Pagamento:</strong> PIX ou Dinheiro</p>
+          </div>
+          <div class="border p-4 rounded-lg bg-green-50">
+            <p><strong class="text-green-600">Quantidade:</strong> 10 a 19 Pacotes</p>
+            <p><strong class="text-green-600">Preço:</strong> R$ 48,00</p>
+            <p><strong class="text-green-600">Pagamento:</strong> Somente Dinheiro</p>
+          </div>
+          <div class="border p-4 rounded-lg bg-green-50">
+            <p><strong class="text-green-600">Quantidade:</strong> 20 ou Mais Pacotes</p>
+            <p><strong class="text-green-600">Preço:</strong> R$ 47,00</p>
+            <p><strong class="text-green-600">Pagamento:</strong> Somente Dinheiro</p>
+          </div>
+        </div>
+  
+        <!-- Informações adicionais -->
+        <div class="text-left mt-6 bg-yellow-50 p-4 rounded-lg">
+          <p><strong class="text-green-600">📦 Cada pacote contém 50 unidades.</strong></p>
+          <p>Você pode escolher entre <strong>sabores sortidos</strong> ou <strong>sabor único</strong>.</p>
+        </div>
+  
+        <div class="text-left mt-4 bg-red-50 p-4 rounded-lg">
+          <p><strong>Importante:</strong> Para compras acima de 10 pacotes, a retirada deve ser feita na loja. Caso seja solicitada a entrega, o preço será o valor normal de R$ 50,00 por pacote.</p>
+        </div>
+  
+        <!-- Botão -->
+        <div class="mt-8">
+          <a href="#contato" class="bg-green-500 text-white py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition">
+            Faça seu Pedido
+          </a>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  
+      
+      
+
+    <!-- Contato e Localização -->
+    <section id="contato" class="bg-gray-50 py-16" data-aos="fade-up">
+        <div class="container mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-8">Fale Conosco</h2>
+        <div class="flex flex-col lg:flex-row lg:space-x-12 items-stretch justify-center">
+    
+            <!-- Localização -->
+            <div class="lg:w-1/2 mb-8 lg:mb-0 text-center bg-white p-6 rounded-lg shadow flex flex-col justify-between" data-aos="zoom-in">
+            <div>
+                <h3 class="text-xl font-semibold text-green-600 mb-2">Nossa Localização</h3>
+                <p class="text-gray-700 mb-2">
+                Avenida Nova Aurora, nº 199<br>
+                Belford Roxo - RJ<br>
+                CEP: 26155-070
+                </p>
+                <p class="text-gray-500 italic mb-4">Em frente à quadra</p>
+                <a href="https://maps.app.goo.gl/cDEbM62MSdm4uMBRA" target="_blank" class="inline-block bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition mb-4">
+                Ver no Mapa
+                </a>
+            </div>
+            <!-- Foto do local (menor) -->
+            <div class="mt-4">
+                <img src="src/img/local.png" alt="Foto da loja em Belford Roxo" class="rounded-lg shadow-lg w-64 max-w-xs mx-auto">
+            </div>
+            </div>
+    
+            <!-- WhatsApp -->
+            <div class="lg:w-1/2 text-center bg-white p-6 rounded-lg shadow flex flex-col justify-between" data-aos="zoom-in" data-aos-delay="200">
+            <div>
+                <h3 class="text-xl font-semibold text-green-600 mb-4">Atendimento Rápido</h3>
+                <p class="text-gray-700 mb-2">Fale diretamente com <span class="font-semibold text-green-500">Aristelson</span> pelo WhatsApp.</p>
+                <p class="text-gray-600 text-sm mb-4">Envie uma mensagem dizendo: <br> <span class="italic text-gray-800">"Olá, vi o site da sorveteria e quero fazer um pedido!"</span></p>
+                <a href="https://wa.me/5521991625865?text=Ol%C3%A1%2C%20vi%20o%20site%20da%20sorveteria%20e%20quero%20fazer%20um%20pedido!" target="_blank" class="inline-block bg-green-500 text-white text-lg font-semibold px-8 py-3 rounded-lg hover:bg-green-600 transition animate-bounce mb-4">
+                Enviar Mensagem no WhatsApp
+                </a>
+            </div>
+            <!-- Foto da Juliana -->
+            <div class="mt-4">
+                <img src="src/img/telefone.png" alt="Foto de Aristelson - Atendimento" class="rounded-full shadow-md w-32 h-32 object-cover mx-auto">
+                <p class="text-sm text-gray-500 mt-2">Aristelson - Atendimento</p>
+            </div>
+            </div>
+    
+        </div>
+        </div>
+    </section>
+  
+  
+  <!-- Footer -->
+<footer class="bg-white border-t py-8" data-aos="fade-up">
+    <div class="container mx-auto flex flex-col items-center text-center text-gray-600 space-y-4">
+      
+      <!-- Logo ou nome -->
+      <h3 class="text-2xl font-bold text-green-500 tracking-wide animate-pulse">+cremoso</h3>
+      
+      <!-- Direitos -->
+      <p class="text-sm">&copy; 2025 +cremoso. Todos os direitos reservados.</p>
+      
+      <!-- Links -->
+      <div class="space-x-6 text-sm">
+        <a href="#" class="hover:text-green-500 transition duration-300">Política de Privacidade</a>
+        <a href="#" class="hover:text-green-500 transition duration-300">Termos de Uso</a>
+      </div>
+      
+      <!-- Redes Sociais -->
+      <div class="flex space-x-4 mt-2">
+        <a href="#" target="_blank" class="text-gray-500 hover:text-green-500 transition transform hover:scale-110">
+          <i class="fab fa-instagram text-xl"></i>
+        </a>
+        <a href="#" target="_blank" class="text-gray-500 hover:text-green-500 transition transform hover:scale-110">
+          <i class="fab fa-facebook text-xl"></i>
+        </a>
+        <a href="#" target="_blank" class="text-gray-500 hover:text-green-500 transition transform hover:scale-110">
+          <i class="fab fa-whatsapp text-xl"></i>
+        </a>
+      </div>
+  
+    </div>
+  </footer>
+  
+    <script src="app.js"></script>
+</body>
+</html>
